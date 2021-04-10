@@ -1,6 +1,38 @@
 {
 	"Contents": [
 		{
+			"File": "../../../Engine/Plugins/Marketplace/VaRestPlugin/VaRestPlugin.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 26,
+				"VersionName": "1.1-r26",
+				"FriendlyName": "VaRest",
+				"Description": "Plugin that makes REST (JSON) server communication easy to use",
+				"Category": "Network",
+				"CreatedBy": "Vladimir Alyamkin",
+				"CreatedByURL": "http://alyamkin.com",
+				"DocsURL": "",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f",
+				"SupportURL": "",
+				"EngineVersion": "4.22.0",
+				"CanContainContent": false,
+				"Installed": true,
+				"Modules": [
+					{
+						"Name": "VaRestPlugin",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					},
+					{
+						"Name": "VaRestEditorPlugin",
+						"Type": "Developer",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/2D/Paper2D/Paper2D.uplugin",
 			"Descriptor": 
 			{
@@ -941,43 +973,6 @@
 							"Win32",
 							"Linux"
 						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Netcode Unit Test - Unreal Engine 4",
-				"Description": "Exploit unit tests for UE4 and some base UE4 games, based on the Netcode Unit Test framework",
-				"Category": "Networking",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "NUTUnrealEngine4",
-						"Type": "Developer",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Linux"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "NetcodeUnitTest",
-						"Enabled": true
 					}
 				]
 			}
