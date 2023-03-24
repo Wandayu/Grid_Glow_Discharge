@@ -2,3 +2,16 @@ Saved/
 Intermediate/Build/
 Binaries/Win64/Grid_Glow_Discharge.pdb
 Intermediate/
+*.apk
+Binaries/Android/Grid_Glow_Discharge_Symbols_v3/Grid_Glow_Discharge-arm64/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v3/Grid_Glow_Discharge-armv7/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v4/Grid_Glow_Discharge-arm64/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v4/Grid_Glow_Discharge-armv7/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v5/Grid_Glow_Discharge-arm64/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v5/Grid_Glow_Discharge-armv7/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v6/Grid_Glow_Discharge-arm64/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v6/Grid_Glow_Discharge-armv7/libUE4.so
+Binaries/Android/Grid_Glow_Discharge-Android-Shipping-arm64.so
+Binaries/Android/Grid_Glow_Discharge-Android-Shipping-armv7.so
+Binaries/Android/Grid_Glow_Discharge-arm64.so
+Binaries/Android/Grid_Glow_Discharge-armv7.so
