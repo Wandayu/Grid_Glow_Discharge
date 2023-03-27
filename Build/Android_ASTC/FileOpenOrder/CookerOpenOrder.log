@@ -4,10 +4,10 @@
 "E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/HandUI/ControllerUIMatGreen_Inst.uasset" 3
 "E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/HandUI/ControllerUIMatRed_Inst.uasset" 4
 "E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/HandUI/HandUIMesh.uasset" 5
-"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/MF_ExtractDepth.uasset" 6
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.uasset" 7
-"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/MF_ConvolveTexture.uasset" 8
-"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/MF_SampleSceneTextureNeighbourUVs.uasset" 9
+"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/MF_SampleSceneTextureNeighbourUVs.uasset" 6
+"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/MF_ExtractDepth.uasset" 7
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SplitComponents.uasset" 8
+"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/MF_ConvolveTexture.uasset" 9
 "../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 10
 "E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/PP_Outliner_M.uasset" 11
 "E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/MatHighlight/PP_Outliner_Inst.uasset" 12
@@ -166,266 +166,268 @@
 "../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 165
 "../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 166
 "../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 167
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 168
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 169
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 170
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 171
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 172
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 173
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 174
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 175
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 176
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 177
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 178
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 179
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 180
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 181
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 182
-"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 183
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 184
-"../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 185
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 168
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 169
+"../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 170
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 171
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 172
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 173
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 174
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 175
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 176
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 177
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 178
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 179
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 180
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 181
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 182
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 183
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 184
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 185
 "../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 186
 "../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 187
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 188
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 189
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 190
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 191
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 192
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 193
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 194
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Exam_BuiltData.uasset" 195
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 196
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 197
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 198
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 199
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 200
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 201
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/WaterDropTex.uasset" 202
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/CloudTex.uasset" 203
-"E:/Grid_Glow_Discharge 4.26/Content/Models/01M_Glass.uasset" 204
-"E:/Grid_Glow_Discharge 4.26/Content/Models/01GridHolderMat_Inst.uasset" 205
-"E:/Grid_Glow_Discharge 4.26/Content/Models/GridHolderUMesh.uasset" 206
-"E:/Grid_Glow_Discharge 4.26/Content/Models/01GeneralWhiteMat.uasset" 207
-"E:/Grid_Glow_Discharge 4.26/Content/Models/GridHolderDMesh.uasset" 208
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MetalSupportHolder.uasset" 209
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/WorkstationOpacityTex.uasset" 210
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/T_MacroVariation.uasset" 211
-"E:/Grid_Glow_Discharge 4.26/Content/Models/01M_Metal_Chrome.uasset" 212
-"E:/Grid_Glow_Discharge 4.26/Content/Models/M_Metal_Chrome.uasset" 213
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Tweezer_gridMat_inst.uasset" 214
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Tweezer_Grid.uasset" 215
-"E:/Grid_Glow_Discharge 4.26/Content/Geometry/transparent.uasset" 216
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/lambert1.uasset" 217
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/plate_Socket.uasset" 218
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MetalSupport_Tutorial.uasset" 219
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/InputItemEnum.uasset" 220
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/EasiglowUIStateEnum.uasset" 221
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/DoubleBorderTexture.uasset" 222
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/BorderTexture.uasset" 223
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Easiglow_UI.uasset" 224
-"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Textures/T_Example_BC.uasset" 225
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/UI_PBarTemp.uasset" 226
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Easiglow_Keyboard_UI.uasset" 227
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/S_InputTick.uasset" 228
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 229
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset" 230
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset" 231
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/SM_FatCylinder.uasset" 232
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/BeamMesh.uasset" 233
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/BeaconDirection.uasset" 234
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/1x1_cube.uasset" 235
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 236
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/TeleportMCP.uasset" 237
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ScreenResolution.uasset" 238
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset" 239
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.uasset" 240
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DepthFromWorldPosition.uasset" 241
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MF_OccludedPixels.uasset" 242
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_SplineArcMat.uasset" 243
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_ArcEndpoint.uasset" 244
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_TeleportPreviews.uasset" 245
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset" 246
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset" 247
-"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Meshes/VRHand_Right_PhysicsAsset.uasset" 248
-"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Textures/SSS/T_Hand_SSS.uasset" 249
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Textures/T_StylizedManHand_ORM.uasset" 250
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Textures/T_StylizedManHand_BC.uasset" 251
-"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Textures/T_Example_N.uasset" 252
-"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Materials/Shaders/M_Master.uasset" 253
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Materials/MI_StylizedManHand.uasset" 254
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset" 255
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Mesh/StylizedManHand_Right.uasset" 256
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/GripEnum.uasset" 257
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/PointAnimation.uasset" 258
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/PickupTinyAnimation.uasset" 259
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset" 260
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_GrabPipet.uasset" 261
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset" 262
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset" 263
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/RightHandGesture_BS.uasset" 264
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset" 265
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset" 266
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Textures/T_StylizedManHand_TX.uasset" 267
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Materials/MI_StylizedManHand_Inst.uasset" 268
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset" 269
-"E:/Grid_Glow_Discharge 4.26/Content/ProcedureEnum.uasset" 270
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/Global_Arrays.uasset" 271
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BPC_PlayerInputRecorder.uasset" 272
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Loading_Message.uasset" 273
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Loading_Failed_Message.uasset" 274
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Autosave_Message.uasset" 275
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Viewport_Screen.uasset" 276
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset" 277
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_BaseMaterial.uasset" 278
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MI_SmallCubes.uasset" 279
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_Floor.uasset" 280
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BPC_FloorEvent.uasset" 281
-"E:/Grid_Glow_Discharge 4.26/Content/Geometry/Meshes/CubeMaterial.uasset" 282
-"E:/Grid_Glow_Discharge 4.26/Content/Geometry/Meshes/1M_Cube.uasset" 283
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset" 284
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/pen_1001_OcclusionRoughnessMetallic.uasset" 285
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/pen_1001_Normal.uasset" 286
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/pen_1001_BaseColor.uasset" 287
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Pen.uasset" 288
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/g_pCone3_pCone3_1001Mat.uasset" 289
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/pen.uasset" 290
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Pen.uasset" 291
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_PressPlunger.uasset" 292
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Easiglow_Pump.uasset" 293
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Button_Beep.uasset" 294
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Spark/T_Spark_Core.uasset" 295
-"../../../Engine/Content/EngineResources/Black.uasset" 296
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset" 297
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Materials/Spark/M_Spark_Core_01_INST.uasset" 298
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Liquid/T_bloodTest_4X6.uasset" 299
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.uasset" 300
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_DepthFade.uasset" 301
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Materials/Liquid/M_Liquid_Spray_01_4X6_INST.uasset" 302
-"E:/Grid_Glow_Discharge 4.26/Content/Particles/P_EasiglowSpark.uasset" 303
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_SoftFallOff.uasset" 304
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master_DepthFade.uasset" 305
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST.uasset" 306
-"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Ambient/Lighting/P_LightCorona.uasset" 307
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/RedIndicator.uasset" 308
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/easiglow_1001_OcclusionRoughnessMetallic.uasset" 309
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/easiglow_1001_Normal.uasset" 310
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/easiglow_1001_BaseColor.uasset" 311
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Easiglow.uasset" 312
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/button_1001_OcclusionRoughnessMetallic.uasset" 313
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/button_1001_Normal.uasset" 314
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/button_1001_BaseColor.uasset" 315
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Button.uasset" 316
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/GreyIndicator.uasset" 317
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/easiglow.uasset" 318
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/button.uasset" 319
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Easiglow.uasset" 320
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/plate_1001_OcclusionRoughnessMetallic.uasset" 321
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/plate_1001_Normal.uasset" 322
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/plate_1001_BaseColor.uasset" 323
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_MetalSupport.uasset" 324
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/grid_1001_OcclusionRoughnessMetallic.uasset" 325
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/grid_1001_Normal.uasset" 326
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/grid_1001_BaseColor.uasset" 327
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Grid.uasset" 328
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/plate.uasset" 329
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/grid.uasset" 330
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MetalSupport.uasset" 331
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/GridHolder.uasset" 332
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Standard_Tweezers_1001_OcclusionRoughnessMetallic.uasset" 333
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Standard_Tweezers_1001_Normal.uasset" 334
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Standard_Tweezers_1001_BaseColor.uasset" 335
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_StandardTweezers.uasset" 336
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/M_Standard_Tweezers.uasset" 337
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Standard_Tweezers.uasset" 338
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Tweezers.uasset" 339
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/lambert1.uasset" 340
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Highlight_Ring.uasset" 341
-"E:/Grid_Glow_Discharge 4.26/Content/Test_Geometry/01M_Glass_Inst.uasset" 342
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 343
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_GlassLidRing.uasset" 344
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/glasslid.uasset" 345
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/GlassLid.uasset" 346
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_RotateArrowMesh.uasset" 347
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/arrow.uasset" 348
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_RArrowMat.uasset" 349
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/UI_RotateArrow_BP.uasset" 350
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_ForwardArrowMesh.uasset" 351
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/UI_ForwardArrow_BP.uasset" 352
-"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_FArrowMat.uasset" 353
-"E:/Grid_Glow_Discharge 4.26/Content/Test_Geometry/Test_Textures/Sounds/FinishTask.uasset" 354
-"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/TutorialUI/TextRender_BP.uasset" 355
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Exam.uasset" 356
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/simple_table_simple_table_OcclusionRoughnessMetallic.uasset" 357
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/simple_table_simple_table_Normal.uasset" 358
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/simple_table_simple_table_BaseColor.uasset" 359
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Simple_Table_M.uasset" 360
-"E:/Grid_Glow_Discharge 4.26/Content/Models/lambert1.uasset" 361
-"E:/Grid_Glow_Discharge 4.26/Content/Models/simple_table.uasset" 362
-"E:/Grid_Glow_Discharge 4.26/Content/Models/defaultMat.uasset" 363
-"E:/Grid_Glow_Discharge 4.26/Content/Models/NewRoomMesh.uasset" 364
-"E:/Grid_Glow_Discharge 4.26/Content/StarterContent/Materials/M_Basic_Wall.uasset" 365
-"E:/Grid_Glow_Discharge 4.26/Content/Models/IlluMat.uasset" 366
-"../../../Engine/Content/BasicShapes/Cube.uasset" 367
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/ReplayButton.uasset" 368
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/MenuBar_inGame.uasset" 369
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/FinishButton.uasset" 370
-"../../../Engine/Content/BasicShapes/Plane.uasset" 371
-"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/GeneralBlack_tex.uasset" 372
-"E:/Grid_Glow_Discharge 4.26/Content/Models/01GeneralBlackMat.uasset" 373
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_RedeemCodeBoard.uasset" 374
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_CryoVRMotionControllerPawn.uasset" 375
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/M_SimpleLight.uasset" 376
-"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/MF_SampleSceneTextureNeighbourUVs.uasset" 377
-"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/MF_ExtractDepth.uasset" 378
-"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/MF_ConvolveTexture.uasset" 379
-"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/PP_Outliner_M.uasset" 380
-"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/PP_Outliner_Inst.uasset" 381
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_GlassLidTutorial.uasset" 382
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Exam.umap" 383
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Practice_BuiltData.uasset" 384
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Practice.uasset" 385
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Practice.umap" 386
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Menu_BuiltData.uasset" 387
-"E:/Grid_Glow_Discharge 4.26/Content/Movies/NewMediaPlayer.uasset" 388
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/MainMenuBar.uasset" 389
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Menu.umap" 390
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_BuiltData.uasset" 391
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/TV_Button.uasset" 392
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Ending.uasset" 393
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Beginning.uasset" 394
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_9_10_11.uasset" 395
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_8.uasset" 396
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_6_7.uasset" 397
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_4_5.uasset" 398
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_3.uasset" 399
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_23.uasset" 400
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_20_21_22.uasset" 401
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_1_2.uasset" 402
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_19_2_.uasset" 403
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_19_1_.uasset" 404
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_18_19.uasset" 405
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_16_17.uasset" 406
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_14_15.uasset" 407
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_13.uasset" 408
-"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_12.uasset" 409
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/UndoButton.uasset" 410
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/MM_Ghost_Breath.uasset" 411
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/MI_Ghost_Breath.uasset" 412
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_PlayBackMotionController.uasset" 413
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BPC_PlayBackController.uasset" 414
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_PlayBackCharacter.uasset" 415
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Grid_InstructionImage.uasset" 416
-"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_InstructionBoard.uasset" 417
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge.umap" 418
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Replay_BuiltData.uasset" 419
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_ObserveCharacter.uasset" 420
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Texture/T_Play.uasset" 421
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Texture/T_Pause.uasset" 422
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/MM_Emissive_UI.uasset" 423
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Replay_Controller.uasset" 424
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_PlayBackWidgetController.uasset" 425
-"../../../Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset" 426
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Report_Dynmaic_Text.uasset" 427
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Exam_Report.uasset" 428
-"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_ExamResultTablet.uasset" 429
-"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Replay.umap" 430
+"E:/Grid_Glow_Discharge 4.26/Content/StarterContent/Materials/M_Basic_Wall.uasset" 191
+"E:/Grid_Glow_Discharge 4.26/Content/Models/IlluMat.uasset" 192
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/S_InputTick.uasset" 193
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 194
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 195
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset" 196
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset" 197
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/SM_FatCylinder.uasset" 198
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/BeamMesh.uasset" 199
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/BeaconDirection.uasset" 200
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Meshes/1x1_cube.uasset" 201
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 202
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/TeleportMCP.uasset" 203
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ScreenResolution.uasset" 204
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset" 205
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedUVs.uasset" 206
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DepthFromWorldPosition.uasset" 207
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MF_OccludedPixels.uasset" 208
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_SplineArcMat.uasset" 209
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_ArcEndpoint.uasset" 210
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_TeleportPreviews.uasset" 211
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset" 212
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset" 213
+"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Meshes/VRHand_Right_PhysicsAsset.uasset" 214
+"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Textures/SSS/T_Hand_SSS.uasset" 215
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Textures/T_StylizedManHand_ORM.uasset" 216
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Textures/T_StylizedManHand_BC.uasset" 217
+"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Textures/T_Example_N.uasset" 218
+"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Textures/T_Example_BC.uasset" 219
+"E:/Grid_Glow_Discharge 4.26/Content/VR_Hands/Materials/Shaders/M_Master.uasset" 220
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Materials/MI_StylizedManHand.uasset" 221
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset" 222
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Mesh/StylizedManHand_Right.uasset" 223
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/GripEnum.uasset" 224
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/PointAnimation.uasset" 225
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/PickupTinyAnimation.uasset" 226
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset" 227
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_GrabPipet.uasset" 228
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset" 229
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset" 230
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/RightHandGesture_BS.uasset" 231
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset" 232
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset" 233
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Textures/T_StylizedManHand_TX.uasset" 234
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Mannequin/Character/Materials/MI_StylizedManHand_Inst.uasset" 235
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset" 236
+"E:/Grid_Glow_Discharge 4.26/Content/ProcedureEnum.uasset" 237
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/Global_Arrays.uasset" 238
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BPC_PlayerInputRecorder.uasset" 239
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Loading_Message.uasset" 240
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Loading_Failed_Message.uasset" 241
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Autosave_Message.uasset" 242
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Viewport_Screen.uasset" 243
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_CryoVRMotionControllerPawn.uasset" 244
+"../../../Engine/Content/BasicShapes/Cube.uasset" 245
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/UndoButton.uasset" 246
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/MenuBar_inGame.uasset" 247
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/MM_Ghost_Breath.uasset" 248
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/MI_Ghost_Breath.uasset" 249
+"../../../Engine/Content/BasicShapes/Plane.uasset" 250
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/GeneralBlack_tex.uasset" 251
+"E:/Grid_Glow_Discharge 4.26/Content/Models/01GeneralBlackMat.uasset" 252
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/MF_Highlight.uasset" 253
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 254
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_PlayBackMotionController.uasset" 255
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BPC_PlayBackController.uasset" 256
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_PlayBackCharacter.uasset" 257
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/M_SimpleLight.uasset" 258
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_Floor.uasset" 259
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BPC_FloorEvent.uasset" 260
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset" 261
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/M_BaseMaterial.uasset" 262
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualReality/Materials/MI_SmallCubes.uasset" 263
+"E:/Grid_Glow_Discharge 4.26/Content/Geometry/Meshes/CubeMaterial.uasset" 264
+"E:/Grid_Glow_Discharge 4.26/Content/Geometry/Meshes/1M_Cube.uasset" 265
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset" 266
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/pen_1001_OcclusionRoughnessMetallic.uasset" 267
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/pen_1001_Normal.uasset" 268
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/pen_1001_BaseColor.uasset" 269
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Pen.uasset" 270
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/g_pCone3_pCone3_1001Mat.uasset" 271
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/pen.uasset" 272
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Pen.uasset" 273
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/InputItemEnum.uasset" 274
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/EasiglowUIStateEnum.uasset" 275
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/DoubleBorderTexture.uasset" 276
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/BorderTexture.uasset" 277
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Easiglow_UI.uasset" 278
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Easiglow_Keyboard_UI.uasset" 279
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/UI_PBarTemp.uasset" 280
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_PressPlunger.uasset" 281
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Easiglow_Pump.uasset" 282
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Button_Beep.uasset" 283
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Spark/T_Spark_Core.uasset" 284
+"../../../Engine/Content/EngineResources/Black.uasset" 285
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset" 286
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Materials/Spark/M_Spark_Core_01_INST.uasset" 287
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Liquid/T_bloodTest_4X6.uasset" 288
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.uasset" 289
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_DepthFade.uasset" 290
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Materials/Liquid/M_Liquid_Spray_01_4X6_INST.uasset" 291
+"E:/Grid_Glow_Discharge 4.26/Content/Particles/P_EasiglowSpark.uasset" 292
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_SoftFallOff.uasset" 293
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master_DepthFade.uasset" 294
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST.uasset" 295
+"E:/Grid_Glow_Discharge 4.26/Content/InfinityBladeEffects/Effects/FX_Ambient/Lighting/P_LightCorona.uasset" 296
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/RedIndicator.uasset" 297
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/easiglow_1001_OcclusionRoughnessMetallic.uasset" 298
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/easiglow_1001_Normal.uasset" 299
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/easiglow_1001_BaseColor.uasset" 300
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Easiglow.uasset" 301
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/button_1001_OcclusionRoughnessMetallic.uasset" 302
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/button_1001_Normal.uasset" 303
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/button_1001_BaseColor.uasset" 304
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Button.uasset" 305
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/GreyIndicator.uasset" 306
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/lambert1.uasset" 307
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/easiglow.uasset" 308
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/button.uasset" 309
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Easiglow.uasset" 310
+"E:/Grid_Glow_Discharge 4.26/Content/UI/UI_Elements/TutorialUI/TextRender_BP.uasset" 311
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 312
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 313
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 314
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 315
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_BuiltData.uasset" 316
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 317
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 318
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 319
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 320
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 321
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/WaterDropTex.uasset" 322
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/CloudTex.uasset" 323
+"E:/Grid_Glow_Discharge 4.26/Content/Models/01M_Glass.uasset" 324
+"E:/Grid_Glow_Discharge 4.26/Content/Models/01GridHolderMat_Inst.uasset" 325
+"E:/Grid_Glow_Discharge 4.26/Content/Models/GridHolderUMesh.uasset" 326
+"E:/Grid_Glow_Discharge 4.26/Content/Models/01GeneralWhiteMat.uasset" 327
+"E:/Grid_Glow_Discharge 4.26/Content/Models/GridHolderDMesh.uasset" 328
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MetalSupportHolder.uasset" 329
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/WorkstationOpacityTex.uasset" 330
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/T_MacroVariation.uasset" 331
+"E:/Grid_Glow_Discharge 4.26/Content/Models/01M_Metal_Chrome.uasset" 332
+"E:/Grid_Glow_Discharge 4.26/Content/Models/M_Metal_Chrome.uasset" 333
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Tweezer_gridMat_inst.uasset" 334
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Tweezer_Grid.uasset" 335
+"E:/Grid_Glow_Discharge 4.26/Content/Geometry/transparent.uasset" 336
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/plate_Socket.uasset" 337
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MetalSupport_Tutorial.uasset" 338
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/plate_1001_OcclusionRoughnessMetallic.uasset" 339
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/plate_1001_Normal.uasset" 340
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/plate_1001_BaseColor.uasset" 341
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_MetalSupport.uasset" 342
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/grid_1001_OcclusionRoughnessMetallic.uasset" 343
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/grid_1001_Normal.uasset" 344
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/grid_1001_BaseColor.uasset" 345
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_Grid.uasset" 346
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/plate.uasset" 347
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/grid.uasset" 348
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/MetalSupport.uasset" 349
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/GridHolder.uasset" 350
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Standard_Tweezers_1001_OcclusionRoughnessMetallic.uasset" 351
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Standard_Tweezers_1001_Normal.uasset" 352
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Standard_Tweezers_1001_BaseColor.uasset" 353
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_StandardTweezers.uasset" 354
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/M_Standard_Tweezers.uasset" 355
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Standard_Tweezers.uasset" 356
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Tweezers.uasset" 357
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/TV_Button.uasset" 358
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/lambert1.uasset" 359
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/Highlight_Ring.uasset" 360
+"E:/Grid_Glow_Discharge 4.26/Content/Test_Geometry/01M_Glass_Inst.uasset" 361
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_GlassLidRing.uasset" 362
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/glasslid.uasset" 363
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Blueprints/GlassLid.uasset" 364
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_RotateArrowMesh.uasset" 365
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/arrow.uasset" 366
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_RArrowMat.uasset" 367
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/UI_RotateArrow_BP.uasset" 368
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_ForwardArrowMesh.uasset" 369
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/UI_ForwardArrow_BP.uasset" 370
+"E:/Grid_Glow_Discharge 4.26/Content/UI/TutorialUI/CP3_UI_FArrowMat.uasset" 371
+"E:/Grid_Glow_Discharge 4.26/Content/Test_Geometry/Test_Textures/Sounds/FinishTask.uasset" 372
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Ending.uasset" 373
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Beginning.uasset" 374
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_9_10_11.uasset" 375
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_8.uasset" 376
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_6_7.uasset" 377
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_4_5.uasset" 378
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_3.uasset" 379
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_23.uasset" 380
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_20_21_22.uasset" 381
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_1_2.uasset" 382
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_19_2_.uasset" 383
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_19_1_.uasset" 384
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_18_19.uasset" 385
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_16_17.uasset" 386
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_14_15.uasset" 387
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_13.uasset" 388
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_12.uasset" 389
+"E:/Grid_Glow_Discharge 4.26/Content/Movies/NewMediaPlayer.uasset" 390
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/simple_table_simple_table_OcclusionRoughnessMetallic.uasset" 391
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/simple_table_simple_table_Normal.uasset" 392
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Textures/simple_table_simple_table_BaseColor.uasset" 393
+"E:/Grid_Glow_Discharge 4.26/Content/Models/Simple_Table_M.uasset" 394
+"E:/Grid_Glow_Discharge 4.26/Content/Models/lambert1.uasset" 395
+"E:/Grid_Glow_Discharge 4.26/Content/Models/simple_table.uasset" 396
+"E:/Grid_Glow_Discharge 4.26/Content/Models/defaultMat.uasset" 397
+"E:/Grid_Glow_Discharge 4.26/Content/Models/NewRoomMesh.uasset" 398
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Texture/Grid_InstructionImage.uasset" 399
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_InstructionBoard.uasset" 400
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/Enum_Matrial.uasset" 401
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge.umap" 402
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/ReplayButton.uasset" 403
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/FinishButton.uasset" 404
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_RedeemCodeBoard.uasset" 405
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Exam_BuiltData.uasset" 406
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Exam.uasset" 407
+"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/MF_SampleSceneTextureNeighbourUVs.uasset" 408
+"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/MF_ExtractDepth.uasset" 409
+"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/MF_ConvolveTexture.uasset" 410
+"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/PP_Outliner_M.uasset" 411
+"E:/Grid_Glow_Discharge 4.26/Content/Highlight_Materials/PP_Outliner_Inst.uasset" 412
+"E:/Grid_Glow_Discharge 4.26/Content/Discharge_Model/Material/M_GlassLidTutorial.uasset" 413
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Exam.umap" 414
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Practice_BuiltData.uasset" 415
+"E:/Grid_Glow_Discharge 4.26/Content/Sound/S_Practice.uasset" 416
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Grid_Glow_Discharge_Practice.umap" 417
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Menu/MainMenuBar.uasset" 418
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Menu_BuiltData.uasset" 419
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Menu.umap" 420
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_ObserveCharacter.uasset" 421
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Texture/T_Play.uasset" 422
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Texture/T_Pause.uasset" 423
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Materials/MM_Emissive_UI.uasset" 424
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Replay_Controller.uasset" 425
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_PlayBackWidgetController.uasset" 426
+"../../../Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset" 427
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Report_Dynmaic_Text.uasset" 428
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/UI_Exam_Report.uasset" 429
+"E:/Grid_Glow_Discharge 4.26/Content/GeneralContent/Blueprints/BP_ExamResultTablet.uasset" 430
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Replay_BuiltData.uasset" 431
+"E:/Grid_Glow_Discharge 4.26/Content/VirtualRealityBP/Maps/Replay.umap" 432

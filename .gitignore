@@ -15,3 +15,5 @@ Binaries/Android/Grid_Glow_Discharge-Android-Shipping-arm64.so
 Binaries/Android/Grid_Glow_Discharge-Android-Shipping-armv7.so
 Binaries/Android/Grid_Glow_Discharge-arm64.so
 Binaries/Android/Grid_Glow_Discharge-armv7.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v7/Grid_Glow_Discharge-arm64/libUE4.so
+Binaries/Android/Grid_Glow_Discharge_Symbols_v7/Grid_Glow_Discharge-armv7/libUE4.so
